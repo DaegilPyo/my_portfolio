@@ -8,11 +8,10 @@ class MoonWidget extends StatefulWidget {
 }
 
 class _MoonWidgetState extends State<MoonWidget> {
-  Offset baseOffSet = Offset(50, 50);
+  Offset baseOffSet = const Offset(50, 50);
 
   static const int baseTime = 200;
 
-  static const double baseMove = 60;
   @override
   Widget build(BuildContext context) {
     return AnimatedPositioned(
@@ -26,9 +25,9 @@ class _MoonWidgetState extends State<MoonWidget> {
         onTap: () {
           setState(() {
             if (baseOffSet.dx == 50) {
-              baseOffSet = Offset(500, 300);
+              baseOffSet = const Offset(500, 300);
             } else {
-              baseOffSet = Offset(50, 50);
+              baseOffSet = const Offset(50, 50);
             }
           });
         },
@@ -38,7 +37,7 @@ class _MoonWidgetState extends State<MoonWidget> {
             Container(
               height: 200,
               width: 200,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                   color: Colors.green,
                   shape: BoxShape.circle,
                   gradient: RadialGradient(

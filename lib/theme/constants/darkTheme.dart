@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:myportfolio/main_scaffold/provider/main_constants.dart';
 import 'package:myportfolio/theme/constants/get_text_theme.dart';

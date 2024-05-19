@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:myportfolio/commons/widgets/new_theme_mode_button.dart';
 import 'package:myportfolio/main_scaffold/provider/main_controller.dart';
 import 'package:myportfolio/main_scaffold/provider/main_provider.dart';
-import 'package:myportfolio/main_scaffold/ui/presentations/main_scaffold.dart';
 import 'package:myportfolio/main_scaffold/ui/widgets/particle_widget.dart';
 import 'package:myportfolio/router/routes.dart';
 import 'package:myportfolio/theme/my_theme.dart';

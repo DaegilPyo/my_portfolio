@@ -4,7 +4,6 @@ import 'package:myportfolio/commons/widgets/custom_icon_button.dart';
 import 'package:myportfolio/helpers/enums.dart';
 import 'package:myportfolio/helpers/helpers.dart';
 import 'package:myportfolio/main_scaffold/provider/main_constants.dart';
-import 'package:myportfolio/main_scaffold/provider/main_provider.dart';
 import 'package:myportfolio/main_scaffold/ui/widgets/section_button_widget.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:myportfolio/theme/my_theme.dart';
@@ -15,7 +14,6 @@ class SidePannel extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    MainProvider provider = ref.watch(mainProvider);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

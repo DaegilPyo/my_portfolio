@@ -59,4 +59,9 @@ class Helpers {
   static Offset getWidgetPosition(GlobalKey key) =>
       (key.currentContext!.findRenderObject() as RenderBox)
           .localToGlobal(Offset.zero);
+
+  static double getMQHeight({required BuildContext context}) =>
+      MediaQuery.of(context).size.height;
+  static double getMQWidth({required BuildContext context}) =>
+      MediaQuery.of(context).size.width;
 }
